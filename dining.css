@@ -1,0 +1,122 @@
+
+body{
+    zoom: 100%;
+
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    background-color: rgba(0, 0, 0, 0.6);
+     background-blend-mode: darken; 
+    /* background-blend-mode: color-burn; */
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure header is above other content */
+}
+#logo
+{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+}
+#link
+{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+   word-spacing: 20px;
+   padding-right: 5%;
+    
+}
+span{
+    color:white;
+    text-decoration: underline;
+}
+
+span:hover
+{
+    text-decoration: underline;
+    color: crimson;
+}
+#hero{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+#hero h1:hover{
+color: crimson;
+text-align: center;
+}
+#hero p:hover{
+    color: rgb(3, 98, 3);
+    text-align: center;
+}
+#herotext{
+    padding-top: 5%;
+}
+.row img{
+    border-radius: 50%;
+}
+.row img:hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 30%;
+
+}
+#image {
+ padding-left: 5%;
+ 
+}
+.row{
+    padding-left: 5%;
+}
+#h2design{
+    text-align: center;
+    background-color: #c1dde3;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+#design-showcase{
+    padding-top: 5%;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+        }
+        #contact{
+            padding-left: 5%;
+            background-color: rgb(116, 116, 116);
+            font-size: x-small;
+        }
+        #contact h1{
+            text-align: center;
+        }
+        .row h1{
+            text-align: center;
+        }
+        .row p{
+            text-align: center;
+        }
+        .row h3{
+            text-align: center;
+        }
