@@ -9,6 +9,16 @@ body{
      background-blend-mode: darken; 
     /* background-blend-mode: color-burn; */
 }
+span{
+    color:white;
+    text-decoration: underline;
+}
+
+span:hover
+{
+    text-decoration: underline;
+    color:#e1b12c;
+}
 .hero-content h1 {
     padding-top: 50%;
     font-size: 36px;
@@ -38,7 +48,7 @@ body{
 }
 
 .btn:hover {
-    background-color: #e1b12c;
+    background-color: #b28711;
 }
 
 header {
@@ -70,20 +80,7 @@ header {
    padding-right: 5%;
     
 }
-span{
-    color:white;
-    text-decoration: underline;
-}
 
-span:hover
-{
-    text-decoration: underline;
-    color: crimson;
-}
-#waht-we-do
-{
-    background-color:rgb(95, 132, 128);
-}
 #contact{
     padding-left: 5%;
     background-color: rgb(116, 116, 116);
@@ -92,14 +89,52 @@ span:hover
 #contact h1{
     text-align: center;
 }
-#waht-we-do h1{
+.row h1{
     text-align: center;
 }
-#waht-we-do p{
-    padding: 5%;
+.row div p{
     text-align: center;
-    font-size: small;
+}
+.row div p:hover{
+   cursor: pointer;
+}
+.row h3{
+    text-align: center;
 }
 .row img{
     border-radius: 30%;
+}
+/* small screens */
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #link {
+        text-align: left;
+        word-spacing: 10px;
+        padding-right: 0;
+    }
+
+}
+
+/* Responsive Styles for Screens < 600px */
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 5px 10px;
+    }
+
+    #logo {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    #link {
+        font-size: 12px;
+        word-spacing: 5px;
+        padding-right: 0;
+    }
+
 }
